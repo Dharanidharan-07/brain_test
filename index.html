@@ -1,0 +1,34 @@
+                 style="width: 90%; height: 300px; object-fit: cover; border: 3px solid #3498db; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        </div>
+        
+        <h1>MCQ Quiz Challenge</h1>
+        
+        <div class="quiz-header">
+            <div id="question-number">Question 1 of 20</div>
+            <div id="timer">00:00</div>
+        </div>
+        
+        <div id="quiz"></div>
+        
+        <button id="next" class="next-button">Next</button>
+        
+        <button id="submit">Submit Quiz</button>
+        
+        <div id="result" class="result"></div>
+        
+        <div class="progress-bar">
+            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+    </div>
+    <div id="results-container">
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31" alt="Results" 
+             style="width:100%; max-height:200px; object-fit:cover; border-radius:8px; margin-bottom:20px;">
+        <h2>Quiz Results</h2>
+        <p id="user-details"></p>
+        <div id="final-score"></div>
+        <button onclick="location.reload()" class="restart-button">Take Quiz Again</button>
+        <button onclick="shareResults()" class="share-button">Share Results</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
